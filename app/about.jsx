@@ -1,23 +1,23 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View } from "react-native";
 import { Link } from "expo-router";
-import React from 'react'
+
 
 const About = () => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>About Page</Text>
 
+  return (
+    <View style={[styles.container]}>
+      <Text style={styles.title}>{'Your are in now "About Page"'}</Text>
       <Link href="/" style={styles.link}>
         Home Page
       </Link>
     </View>
-  )
-}
+  );
+};
 
-export default About
+export default About;
 
 const styles = StyleSheet.create({
-    container: {
+  container: {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
@@ -37,10 +37,10 @@ const styles = StyleSheet.create({
   logo: {
     marginVertical: 20,
   },
-  link:{
+  link: {
     fontSize: 30,
-    fontweight: 'bold',
+    fontWeight: "bold",
     marginVertical: 20,
     borderBottomWidth: 1,
-  }
-})
+  },
+});

@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
   link:{
     fontSize: 30,
-    fontweight: 'bold',
+    fontWeight: 'bold',
     marginVertical: 20,
     borderBottomWidth: 1,
   }
